@@ -1,0 +1,18 @@
+@media (max-width: 380px) {
+    .contact-form .form-item:nth-child(1) {
+        flex-direction: column;
+    }
+
+    .contact-form .form-item:nth-child(3) .radio-inputs{
+        flex-direction: column;
+    }
+
+    textarea {
+        height: 200px;
+    }
+
+    .success-message {
+        width: 35ch;
+        top: 5%;
+    }
+}
